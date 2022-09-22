@@ -11,7 +11,7 @@ cursor = connection.cursor()
 # Creates "Customers" table in database
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS Customers (
-    CustomerID INTEGER PRIMARY KEY
+    CustomerID INTEGER PRIMARY KEY 
                        UNIQUE,
     Forename   TEXT    NOT NULL,
     Surname    TEXT    NOT NULL,
